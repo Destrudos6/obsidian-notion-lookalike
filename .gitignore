@@ -1,0 +1,21 @@
+# dependencies / build output
+node_modules/
+main.js
+*.js.map
+dist/
+
+# plugin data (contains your Notion token) and local vaults
+data.json
+sample-vault/
+fixtures/
+live/
+*.zip
+
+# OS / editor / logs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+.env
+.env.*

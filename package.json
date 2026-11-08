@@ -1,0 +1,34 @@
+{
+  "name": "notion-lookalike-importer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Obsidian plugin: read-only Notion backup that keeps the look, plus a Notion mode for Obsidian",
+  "author": "Destrudos6",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Destrudos6/obsidian-notion-lookalike.git"
+  },
+  "homepage": "https://github.com/Destrudos6/obsidian-notion-lookalike#readme",
+  "bugs": {
+    "url": "https://github.com/Destrudos6/obsidian-notion-lookalike/issues"
+  },
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "node --test --experimental-strip-types --import ./test/stubs/register.mjs --no-warnings test/*.test.ts",
+    "sample": "node --experimental-strip-types scripts/build-sample-vault.ts",
+    "demo-notes": "node --experimental-strip-types scripts/build-demo-notes.ts",
+    "dev": "node esbuild.config.mjs"
+  },
+  "devDependencies": {
+    "@codemirror/language": "^6.13.1",
+    "@types/node": "^22.20.5",
+    "esbuild": "^0.25.5",
+    "markdown-it": "^15.0.3",
+    "obsidian": "^1.14.4",
+    "typescript": "5.8",
+    "yaml": "^2.9.1"
+  }
+}

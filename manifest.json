@@ -1,0 +1,10 @@
+{
+	"id": "notion-lookalike-importer",
+	"name": "Notion Look-alike Importer",
+	"version": "1.0.0",
+	"minAppVersion": "1.10.0",
+	"description": "Back up a Notion workspace via the Notion API without losing data (raw JSON of every page, block and database, all files downloaded, verification report, safe re-sync) and keep its look: covers, icons, colored callouts, toggles, columns, all database views (table/board/gallery/list/calendar/chart) as Obsidian Bases with Notion-style view tabs, Notion formulas and rollups as live Bases formulas, and page icons in links, file list, tabs and Bases cells.",
+	"author": "Destrudos6",
+	"authorUrl": "https://github.com/Destrudos6",
+	"isDesktopOnly": false
+}
